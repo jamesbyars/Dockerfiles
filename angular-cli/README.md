@@ -1,4 +1,4 @@
-# The angular2 cli
+# The Angular-CLI 
 
 ## Build
 
