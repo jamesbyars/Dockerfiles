@@ -11,4 +11,8 @@
 - `cd PROJECT_NAME`
 - `npm install`
 - `ng serve --host 0.0.0.0 --port 4200`
-- See (angular-cli)[https://github.com/angular/angular-cli#prerequisites] for other commands
+- See [angular-cli](https://github.com/angular/angular-cli) for other commands
+
+## Mount a host directory 
+
+`docker run -it -p 4200:4200 -v $(pwd):/home angular-cli bash`
