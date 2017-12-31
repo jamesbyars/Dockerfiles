@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get install -y vim
 
 WORKDIR /home
 
-RUN npm install -g @angular/cli@1.2.6
+RUN npm install -g @angular/cli@1.6.3
 
 EXPOSE 4200

@@ -16,3 +16,11 @@
 ## Mount a host directory 
 
 `docker run -it -p 4200:4200 -v $(pwd):/home angular-cli bash`
+
+## Tag & Push
+
+1. Run Docker build (make sure to pass `-t angular-cli`)
+2. `docker tag angular-cli jbyars4ku/angular-cli:[version]`
+3. `docker push jbyars4ku/angular-cli:[version]`
+4. `docker tag angular-cli jbyars4ku/angular-cli:latest`
+5. `docker push jbyars4ku/angular-cli:latest`
